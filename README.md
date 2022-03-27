@@ -6,3 +6,9 @@ you can mess around with. Most of the code was from a nice little fella named Pa
 
 The base was from: https://github.com/VHMCODERhoff/Source-R6-Modified/blob/master/usermode%20modified/main.cpp
 ImGui Overlay: https://github.com/furkankadirguzeloglu/ImGuiExternal
+
+
+Features:
+- Outlines
+- No Sky
+- Map Colour Changer

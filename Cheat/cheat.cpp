@@ -98,6 +98,10 @@ int cheatjit()
 			return base_address;
 		}
 	}
+	
+	RainbowSix::ns();
+	RainbowSix::AmbientColor();
+	RainbowSix::NoSky();
 
 
 	while (true)

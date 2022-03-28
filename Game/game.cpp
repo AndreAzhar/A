@@ -182,14 +182,15 @@ namespace RainbowSix
         return ((RPM<std::uintptr_t>(PlayerController + 0x80) - 0x31i64) ^ 0x3B) - 0x63;
     }
 
-    void namesjit()
-    {
-
-    }
+  
 
 
     void ns()
     {
-        WPM< std::uint32_t >(current_weapon(Localplayer()) + 0x60, 0x76FE6EE0);
+        while (true)
+        {
+            WPM< std::uint32_t >(current_weapon(Localplayer()) + 0x60, 0x76FE6EE0);
+
+        }
     }
 }

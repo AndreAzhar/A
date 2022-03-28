@@ -1,4 +1,8 @@
+/*
 
+	Definitions for features and whatnot
+
+*/
 
 #include "Game.h"
 #include "Offsets.h"
@@ -35,9 +39,9 @@ namespace RainbowSix
 
     void AmbientColor()
     {
-        WPM<float>(GetLightManager() + 0x238, 255);
-        WPM<float>(GetLightManager() + 0x248, 0);
-        WPM<float>(GetLightManager() + 0x258, 170);
+        WPM<float>(GetLightManager() + 0x238, 0);
+        WPM<float>(GetLightManager() + 0x248, 133);
+        WPM<float>(GetLightManager() + 0x258, 190);
     }
     
 
@@ -178,15 +182,15 @@ namespace RainbowSix
         return ((RPM<std::uintptr_t>(PlayerController + 0x80) - 0x31i64) ^ 0x3B) - 0x63;
     }
 
-  
+    void namesjit()
+    {
+
+    }
 
 
     void ns()
     {
-        while (true)
-        {
-            WPM< std::uint32_t >(current_weapon(Localplayer()) + 0x60, 0x76FE6EE0);
+        WPM< std::uint32_t >(current_weapon(Localplayer()) + 0x60, 0x76FE6EE0);
 
-        }
     }
 }

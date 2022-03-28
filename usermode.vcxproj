@@ -147,13 +147,6 @@
     <ClCompile Include="Cheat\cheat.cpp" />
     <ClCompile Include="Game\game.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Overlay\ImGui\imgui.cpp" />
-    <ClCompile Include="Overlay\ImGui\imgui_demo.cpp" />
-    <ClCompile Include="Overlay\ImGui\imgui_draw.cpp" />
-    <ClCompile Include="Overlay\ImGui\imgui_impl_dx9.cpp" />
-    <ClCompile Include="Overlay\ImGui\imgui_impl_win32.cpp" />
-    <ClCompile Include="Overlay\ImGui\imgui_tables.cpp" />
-    <ClCompile Include="Overlay\ImGui\imgui_widgets.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cheat\cheat.h" />
@@ -162,16 +155,6 @@
     <ClInclude Include="Game\Vector\SVector.h" />
     <ClInclude Include="globals.h" />
     <ClInclude Include="Game\offsets.h" />
-    <ClInclude Include="Overlay\Functions.h" />
-    <ClInclude Include="Overlay\ImGui\imconfig.h" />
-    <ClInclude Include="Overlay\ImGui\imgui.h" />
-    <ClInclude Include="Overlay\ImGui\imgui_impl_dx9.h" />
-    <ClInclude Include="Overlay\ImGui\imgui_impl_win32.h" />
-    <ClInclude Include="Overlay\ImGui\imgui_internal.h" />
-    <ClInclude Include="Overlay\ImGui\imstb_rectpack.h" />
-    <ClInclude Include="Overlay\ImGui\imstb_textedit.h" />
-    <ClInclude Include="Overlay\ImGui\imstb_truetype.h" />
-    <ClInclude Include="Overlay\Overlay.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,8 +1,4 @@
-/*
 
-	Definitions for features and whatnot
-
-*/
 
 #include "Game.h"
 #include "Offsets.h"

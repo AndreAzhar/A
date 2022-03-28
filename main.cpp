@@ -324,7 +324,7 @@ int main() {
 	SetupWindow();
 	DirectXInit();
 	CreateThread(0, 0, ProcessCheck, 0, 0, 0);
-	while (TRUE) {
+	while (true) {
 		MainLoop();
 
 

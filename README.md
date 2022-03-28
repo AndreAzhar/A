@@ -11,4 +11,5 @@ ImGui Overlay: https://github.com/furkankadirguzeloglu/ImGuiExternal
 Features:
 - Outlines
 - No Sky
+- No spread
 - Map Colour Changer

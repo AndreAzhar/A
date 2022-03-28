@@ -328,29 +328,7 @@ int main() {
 		MainLoop();
 
 
-		while (true)
-		{
-			for (int i = 0; i < RainbowSix::ControllerCount(RainbowSix::GetGameManager()); i++)
-			{
-				const auto PlayerController = RainbowSix::CPlayerController{ RPM<std::uintptr_t>(RainbowSix::ControllerList(RainbowSix::GetGameManager()) + (i * sizeof(std::uintptr_t))) };
-				if (!PlayerController.Address)
-					continue;
-
-
-
-
-				const auto PawnComponent = RainbowSix::CPlayerController::CPawnComponent{ _rotl64(RPM<std::uintptr_t>(PlayerController.Address + 0x38) - 0x211C0F86ED634100i64, 0x3B) - 0x2F };
-				if (!PawnComponent.Address)
-					continue;
-
-				const auto Actor = RainbowSix::CPlayerController::CPawnComponent::CActor{ (_rotl64(RPM<std::uintptr_t>(PawnComponent.Address + 0x18), 0x1A) ^ 0xBCC79864C12C2B1Fui64) - 0x5C };
-				if (!Actor.Address)
-					continue;
-
-				RainbowSix::OutlineActor(Actor);
-			}
-
-		}
+		
 
 		
 	}

@@ -6,5 +6,5 @@ namespace RainbowSix
 {
 
 
-	void outline();
+	void outlines();
 }
